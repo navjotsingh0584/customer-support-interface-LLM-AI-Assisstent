@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Chroma generated database
+chroma_db/
+
+# User uploaded/generated files
+app/uploads/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+# Windows shortcuts
+*.lnk
+
+# Local SQLite databases
+*.db
