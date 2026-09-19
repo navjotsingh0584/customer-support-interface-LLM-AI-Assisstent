@@ -15,7 +15,7 @@ The system combines a FastAPI backend with a React frontend and integrates local
 - Retrieval-Augmented Generation (RAG)
 - PDF and document processing
 - Knowledge-base document ingestion
-- OCR for extracting text from images/documents
+- OCR for extracting text from images and documents
 - Image and document analysis
 - Computer vision based processing
 - User authentication and session management
@@ -27,49 +27,51 @@ The system combines a FastAPI backend with a React frontend and integrates local
 ## Main Workflow
 
 User Query
-    ↓
+↓
 React Frontend
-    ↓
+↓
 FastAPI Backend
-    ↓
+↓
 Query Processing
-    ↓
+↓
 RAG / Knowledge Retrieval
-    ↓
+↓
 LLM Response Generation
-    ↓
+↓
 Response
-    ↓
+↓
 Frontend
 
-For document-based questions:
+### Document Processing Workflow
 
 Document
-    ↓
+↓
 Document Processing
-    ↓
+↓
 Text Extraction / OCR
-    ↓
+↓
 Chunking
-    ↓
+↓
 Vector Embeddings
-    ↓
+↓
 ChromaDB
-    ↓
+↓
 Relevant Context Retrieval
-    ↓
+↓
 LLM
-    ↓
+↓
 Final Answer
 
 ## Technologies Used
 
 ### Backend
+
 - Python
 - FastAPI
 - REST APIs
 
 ### Frontend
+
 - React
 - JavaScript
 - HTML
@@ -77,21 +79,25 @@ Final Answer
 - Vite
 
 ### AI / LLM
+
 - Large Language Models
 - Ollama
-- RAG
+- Retrieval-Augmented Generation (RAG)
 
 ### Document Processing
+
 - PDF processing
 - OCR
 - Text extraction
 - Document ingestion
 
 ### Database / Storage
+
 - ChromaDB
 - SQLite
 
 ### Computer Vision
+
 - Image processing
 - Image classification
 - Document analysis
